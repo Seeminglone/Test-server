@@ -1,0 +1,21 @@
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    height: 50px;
+    max-width: 114px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(247, 82, 236);
+}
